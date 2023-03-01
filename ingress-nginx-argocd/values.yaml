@@ -6,7 +6,7 @@ ingress-nginx:
         service.beta.kubernetes.io/azure-load-balancer-health-probe-request-path: /healthz
         service.beta.kubernetes.io/azure-load-balancer-internal: "true" 
         service.beta.kubernetes.io/azure-pls-create: "true"
-        service.beta.kubernetes.io/azure-pls-name: AdsPls 
+        service.beta.kubernetes.io/azure-pls-name: AksDemoPls 
         service.beta.kubernetes.io/azure-pls-ip-configuration-subnet: "PLSSubnet"
     electionID: ingress-controller-pls
     ingressClassResource:
