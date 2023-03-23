@@ -1,1 +1,1 @@
-# ingress-nginx-argocd
+# ingress-nginx-pls
